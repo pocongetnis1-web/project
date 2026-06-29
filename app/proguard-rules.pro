@@ -1,0 +1,5 @@
+-keep class com.genetic.darkphantom.** { *; }
+-dontwarn com.google.firebase.**
+-keepattributes *Annotation*
+-keepattributes SourceFile,LineNumberTable
+-renamesourcefileattribute SourceFile
